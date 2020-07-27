@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 .cleatfix:after {
     content: '';
     display: block;
@@ -17,7 +18,7 @@ a {
     display: block;
 }
 
-header, main {
+header, main, footer {
     width: 100%;
 }
 
@@ -35,7 +36,7 @@ main {
 
 /* Navigation */
 
-header > .nav-wrapper{
+header > .nav-wrapper {
     background: #323232;
     position: relative;
     height: 65px;
@@ -61,7 +62,7 @@ header nav {
     border-left: 42px solid transparent;
     border-right: 42px solid transparent;
     position: absolute;
-    top: 55px;
+    top: 51px;
     left: -12%;
 }
 
@@ -100,7 +101,6 @@ nav a:hover {
 .right a {
     padding: 19px 0 18px 13px;
 }
-
 
 .left a {
     padding: 19px 21px 19px 2px;
@@ -189,6 +189,7 @@ nav a:hover {
     border-left: 1px solid #219d84;
 
 }
+
 .about-img {
     float: left;
 }
@@ -232,6 +233,7 @@ nav a:hover {
     overflow: hidden;
 
 }
+
 .about-social li {
     float: left;
 }
@@ -273,18 +275,22 @@ nav a:hover {
     background-position: -124px 0;
 }
 
-
 /* In Touch */
 
 .in-touch {
     background: #323232;
     width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .in-touch > .outer-wrapper {
-    padding-top: 4.3%;
-    padding-bottom: 4.2%;
+    padding-top: 3.1%;
+    padding-bottom: 3.5%;
+    border-top: 1px solid #2b2b2b;
+    border-bottom: 1px solid #2b2b2b;
 }
+
 .in-touch-form {
     float: left;
     width: 75%;
@@ -369,6 +375,24 @@ nav a:hover {
 
 .contacts li:last-child:before {
     background-position: -1px -41px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #222222;
+}
+
+footer p {
+    font-family: Lato, sans-serif;
+    color: #454545;
+    font-size: 12px;;
+}
+
+.footer-wrapper {
+
+    max-width: 980px;
+    padding: 0.7% 0 0.7% 1.5%;
 }
 
 
