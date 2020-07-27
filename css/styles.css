@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+.cleatfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+li {
+    list-style: none;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+header {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+/* HEADER */
+
+/* Navigation */
+
+header > .nav-wrapper{
+    background: #323232;
+    position: relative;
+    height: 65px;
+}
+
+nav {
+    max-width: 374px;
+    height: 65px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 47.8%;
+}
+
+.logo:after {
+    content: '';
+    border-top: 26px solid #323232;
+    border-left: 42px solid transparent;
+    border-right: 42px solid transparent;
+    position: absolute;
+    top: 55px;
+    left: -12%;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: -1.5px;
+}
+
+nav a:hover {
+    color: #2eb398;
+}
+
+.right, .left {
+    position: absolute;
+    top: 13px;
+    display: block;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.right a {
+    padding: 19px 0 18px 13px;
+}
+
+
+.left a {
+    padding: 19px 21px 19px 2px;
+}
+
+/* Hexagon */
+
+.hex-img {
+    position: relative;
+    padding-top: 5.9%;
+    border-bottom: 1px solid #e4e9eb;
+}
+
+.splitter {
+    position: absolute;
+    background: transparent;
+    content: '';
+    display: block;
+}
+
+.splitter-top {
+    width: 42%;
+    top: 1.4%;
+    border-top: 1px solid #e4e9eb;
+}
+
+.splitter-top-left {
+    left: 1%;
+}
+
+.splitter-top-right {
+    right: 1%;
+}
+
+.splitter-left {
+    left: 8.2%;
+    height: 105px;
+    border-left: 1px solid #e4e9eb;
+}
+
+.splitter-right {
+    right: 8%;
+    height: 105px;
+    border-right: 1px solid #e4e9eb;;
+}
+
+.splitter-left-top, .splitter-right-top {
+    top: 20%;
+}
+
+.splitter-left-bottom, .splitter-right-bottom {
+    bottom: 18%;
+}
+
+.squares {
+    margin: 5.3% 0 0.8% 1%;
+}
+
+.squares div {
+    width: 6px;
+    height: 6px;
+    background: #ddd2c5;
+    display: inline-block;
+    margin-left: -1px;
+}
+
+.squares div:nth-child(3) {
+    background: #8b8784;
+}
+
+
+
+
+
+
